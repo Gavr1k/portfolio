@@ -1,11 +1,11 @@
 <template>
   <div>
-    <LeetCodeWidget></LeetCodeWidget>
+    <ProgressCircular></ProgressCircular>
   </div>
 </template>
 
 <script setup lang="ts">
-import LeetCodeWidget from "./components/widgets/LeetcodeWidget.vue";
+import ProgressCircular from "./components/ProgressCircular.vue";
 </script>
 
 
