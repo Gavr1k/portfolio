@@ -1,7 +1,5 @@
 <template>
   <svg 
-    width="250" 
-    height="250" 
     class="circular-progress" 
     style="--progress: 50"
     :style="cssVariables"
@@ -25,8 +23,8 @@ interface Props {
 }
 
 const props = withDefaults(defineProps<Props>(), {
-  size: 5,
-  width: 20,
+  size: 2,
+  width: 10,
   color: "#5394fd",
 });
 
@@ -50,6 +48,8 @@ const cssVariables = computed(() => {
 .circular-progress {
   --dash: calc((var(--progress) * var(--circumference)) / 100);
   animation: progress-animation 5s linear 0s 1 forwards;
+  width: 100%;
+  height: 100%;
 }
 
 .circular-progress circle {
