@@ -67,8 +67,7 @@ h1 {
 }
 
 .concept-eight {
-	background: url(../assets/header.jpg) top
-		right / cover;
+	background: url(../assets/header.jpeg);
 	display: flex;
 	align-items: center;
 	justify-content: center;
